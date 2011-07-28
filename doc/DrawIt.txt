@@ -42,11 +42,11 @@ Copyright:    Copyright (C) 2004-2011 Charles E. Campbell, Jr. {{{1
  || Starting &   |                                                           ||
  || Stopping     | Explanation                                               ||
  ++--------------+-----------------------------------------------------------++
- ||  \di         | start DrawIt       |drawit-start|                           ||
- ||  \ds         | stop  DrawIt       |drawit-stop|                            ||
- ||  :DIstart    | start DrawIt       |drawit-start|                           ||
- ||  :DIstop     | stop  DrawIt       |drawit-stop|                            ||
- ||  :DrawIt[!]  | start/stop DrawIt  |drawit-start| |drawit-stop|               ||
+ ||  \di         | start DrawIt       |drawit-start|                         ||
+ ||  \ds         | stop  DrawIt       |drawit-stop|                          ||
+ ||  :DIstart    | start DrawIt       |drawit-start|                         ||
+ ||  :DIstop     | stop  DrawIt       |drawit-stop|                          ||
+ ||  :DrawIt[!]  | start/stop DrawIt  |drawit-start| |drawit-stop|           ||
  ||              |                                                           ||
  ++==============+===========================================================++
  ||   Maps       | Explanation                                               ||
@@ -56,11 +56,11 @@ Copyright:    Copyright (C) 2004-2011 Charles E. Campbell, Jr. {{{1
  ||              | spaces, draw arrows by using the following characters or  ||
  ||              | keypad characters:                                        ||
  ||              +-----------------------------------------------------------++
- || <left>       | move and draw left                         |drawit-drawing| ||
+ || <left>       | move and draw left                       |drawit-drawing| ||
  || <right>      | move and draw right, inserting lines/space as needed      ||
  || <up>         | move and draw up, inserting lines/space as needed         ||
  || <down>       | move and draw down, inserting lines/space as needed       ||
- || <s-left>     | move cursor left                              |drawit-move| ||
+ || <s-left>     | move cursor left                            |drawit-move| ||
  || <s-right>    | move cursor right, inserting lines/space as needed        ||
  || <s-up>       | move cursor up, inserting lines/space as needed           ||
  || <s-down>     | move cursor down, inserting lines/space as needed         ||
@@ -77,8 +77,8 @@ Copyright:    Copyright (C) 2004-2011 Charles E. Campbell, Jr. {{{1
  || \<           | insert a fat < and move left     (draw <- arrow)          ||
  || \^           | insert a fat ^ and move up       (draw ^  arrow)          ||
  || \v           | insert a fat v and move down     (draw v  arrow)          ||
- ||<s-leftmouse> | drag and draw with current brush            |drawit-brush|  ||
- ||<c-leftmouse> | drag and move current brush                 |drawit-brush|  ||
+ ||<s-leftmouse> | drag and draw with current brush          |drawit-brush|  ||
+ ||<c-leftmouse> | drag and move current brush               |drawit-brush|  ||
  ||              |                                                           ||
  ||==============+===========================================================++
  ||Visual Cmds   | Explanation                                               ||
@@ -90,7 +90,7 @@ Copyright:    Copyright (C) 2004-2011 Charles E. Campbell, Jr. {{{1
  ||              | These routines need a block of spaces, and so the canvas  ||
  ||              | routine must first be used to create such a block.  The   ||
  ||              | canvas routine will query the user for the number of      ||
- ||              | lines to hold |'textwidth'| spaces.                         ||
+ ||              | lines to hold |'textwidth'| spaces.                       ||
  ||              +-----------------------------------------------------------++
  || \a           | draw arrow from corners of visual-block selected region   ||
  || \b           | draw box on visual-block selected region                  ||
